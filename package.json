@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
     
   },
   "repository": {
@@ -23,8 +28,9 @@
     "discord.js": "^13.7.0",
     "dotenv": "^16.0.1"
   },
-  "engines": {
-    "node": "16.x",
-    "npm": "8.x"
-  }
+  "bugs": {
+    "url": "https://github.com/cukhi/SrakenPierdaken/issues"
+  },
+  "homepage": "https://github.com/cukhi/SrakenPierdaken#readme"
+  
 }
