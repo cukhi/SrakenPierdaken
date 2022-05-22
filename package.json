@@ -1,0 +1,31 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cukhi/SrakenPierdaken"
+  },
+  
+  "keywords": [
+      "heroku",
+      "discord.js"
+    
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  }
+}
